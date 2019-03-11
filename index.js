@@ -1,6 +1,6 @@
 let express = require('express');
 let app = express();
-let port = process.env.port || 5000;
+let port = process.env.PORT || 5000;
 
 let imgObj = {
     "imageDocumentKey": "20170331075189994905",
